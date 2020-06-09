@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <h1 id="Turing">
+        Máquina de Turing
+    </h1>
+        <table>
+            <tr>
+                <td>
+                    <label>Transições</label>
+                </td>
+                <td>
+                    <input type ="text" id="transicoes">
+                    <button onclick="adicionar()">Adicionar</button>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Estado Inicial</label>
+                </td>
+                <td>
+                    <input type ="text" id="estadoInicial">
+                    <button onclick="adicionarInicial()">Adicionar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Estados Finais</label>
+                </td>
+                <td>
+                    <input type ="text" id="estadoFinal">
+                    <button onclick="adicionarFinal()">Adicionar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Cadeia/Palavra</label>
+                </td>
+                <td>
+                    <input type ="text" id="palavra">
+                    <button onclick="adicionarPalavra()">Adicionar</button>
+                </td>
+            </tr>
+        </table>
+                <div>
+                    <button onclick="concluir()">Concluir</button>
+                    <div>
+                        <div>
+                            <label>
+                                Resultado:
+                            </label>
+                            <label type = "text" id="resultado">
+                                
+                            </label>
+                        </div>
+                        <div type = "text" id="mostrarTransacoes">
+            
+                        </div>
+                    </div>
+                </div>
+                <div >
+                   <label>
+                       Saída da cadeia:
+                   </label>
+                   <label type = "text" id="ResultadoPalavra">
+
+                   </label>
+                </div>    
+</body>
+</html>

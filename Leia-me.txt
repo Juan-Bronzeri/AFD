@@ -1,0 +1,24 @@
+Entrar com um Autômato finito determinístico ou não determinístico e uma cadeia, o programa retorna se a cadeia é aceita no autômato.
+
+Exemplo de entrada
+
+Transições:
+q0 * q0 * >
+q0 a q0 b >
+q0 b q0 a >
+q0 c q1 c <
+q1 * q2 * >
+q1 a q1 c <
+q1 b q1 c <
+
+Estado Inicial:
+q0
+
+Estados Finais:
+q2
+
+Palavra:
+bbb
+aaac
+abb
+baac
